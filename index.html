@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <section class="container">
+      <div class="inicio">
+        <input
+          type="text"
+          class="input palavra-input"
+          placeholder="Coloque a palavra"
+        />
+        <input
+          type="text"
+          class="input dica-input"
+          placeholder="Coloque a dica"
+        />
+        <input type="button" class="botao botao-confirma" value="confirmar" />
+      </div>
+
+      <input
+        type="text"
+        class="input chute-input"
+        placeholder="Faça seu chute"
+      />
+      <input type="button" class="botao botao-chute" value="confirmar" />
+
+      <div class="formar-palavra">
+        <p class="letras"></p>
+        <p class="contador"></p>
+      </div>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
